@@ -1,0 +1,30 @@
+{
+  "allowed_layers": [
+    "0",
+    "025-TEXT",
+    "035-TEXT",
+    "1",
+    "ACHSEN",
+    "AME_FRZ",
+    "AM_0",
+    "AM_5",
+    "AM_9",
+    "B6",
+    "DEFPOINTS",
+    "Entwurf",
+    "HTA",
+    "KOERPERKANTEN",
+    "Koerperkante",
+    "MASSLINIEN",
+    "PRO",
+    "SCHRAFFUR",
+    "TEXT2",
+    "TEXT3",
+    "Text",
+    "Verdeckt"
+  ],
+  "ignored_layers": [],
+  "adaptive_tolerance": true,
+  "max_tolerance": 1.0,
+  "arc_segments_per_180": 20
+}
