@@ -20,7 +20,7 @@ Thesis/
 │
 ├── Example_Data/
 │   ├── HTA1071F.dwg                  # Original CAD file (AutoCAD DWG format)
-│   ├── HTA1071F.dxf                  # Original DXF drawing input
+│   ├── HTA1071F.dxf                  # DXF drawing input
 │   ├── HTA1071F.pdf                  # Exported drawing preview 
 │   ├── HTA1071F_geometry.json        # Output geometry from DXF_Parser
 │   ├── HTA1071F_parts.json           # Classified geometry from Geometry_Interpreter
