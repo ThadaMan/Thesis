@@ -1,0 +1,763 @@
+{
+    "_id": "67c6e27c984e50bf2c6c8a90",
+    "general": {
+        "reference": "HTA-CE 49/30 HCR-150",
+        "reference_desktop": "HTA-CE 49/30 - HCR - 150 / 2",
+        "type": "HTA",
+        "sub_type": "HTA-CE 49/30",
+        "hierarchy": {
+            "level_1": "Anchoring & Fixing",
+            "level_2": "Cast-in Channels & T-Bolts & Accessories",
+            "level_3": "Cold-formed cast-in anchor channels & T-bolts (standard level)",
+            "level_4": "HTA-CE"
+        },
+        "attributes": {
+            "brand": "Halfen",
+            "article_number": "",
+            "copyright": "Leviat",
+            "supplier": "Leviat",
+            "material": "HCR",
+            "weight": 0,
+            "leviat_design_software_url": "",
+            "version": "04-03-2025",
+            "corrosion_resistance_class": "V (DIN EN 1993-1-4: 2015-10)",
+            "material_anchor_different": ""
+        },
+        "approvals_and_certifications": {
+            "approvals": [
+                "ETA"
+            ],
+            "epd": true
+        },
+        "geometry": {
+            "length": 0.15,
+            "height": 0.103,
+            "width": 0.05,
+            "profile": {
+                "name": "49/30",
+                "bch": 0.05,
+                "hch": 0.03,
+                "tnomb": 0.003,
+                "tnoml": 0.003,
+                "d": 0.022,
+                "f": 0.00739
+            },
+            "anchors": {
+                "type": "B6",
+                "head_width": 0.02,
+                "head_height": 0.0022,
+                "shaft_height": 0.0604,
+                "anchor_height": 0,
+                "section_area": 0.000234,
+                "shaft_diameter": 0.01,
+                "quantity": 2,
+                "positions": [
+                    0.025,
+                    0.125
+                ],
+                "x": 0.025,
+                "s_min": 0.05,
+                "s_max": 0.25
+            }
+        }
+    },
+    "calculation": {
+        "Fuk": 520000000,
+        "Fyk": 240000000,
+        "Inertia": 4.1827e-8,
+        "Wpl": 3.559e-6,
+        "Cmin": 0.075,
+        "Hef": 0.094,
+        "Hmin": 0.105,
+        "Hnom": 0.113,
+        "EA": 32970000,
+        "K12": {
+            "Cracked": 7.5,
+            "NotCracked": 10.5
+        },
+        "NRkp_C1215": {
+            "Cracked": 21000,
+            "NotCracked": 29400
+        },
+        "MRk_s_flex": 1673,
+        "N0Rk_s_l": 31000,
+        "V0Rk_s_l": 31000,
+        "S1N": 0.081,
+        "VRk_s_a_y": 31000,
+        "VRk_s_c_y": 31000,
+        "VRk_s_a_x": 0,
+        "VRk_s_c_x": 0,
+        "NRk_sa": 31000,
+        "NRk_sc": 31000,
+        "GammaM_sa_N": 1.8,
+        "GammaM_sa_V": 1.8,
+        "Gamma_Inst": 1.2,
+        "GammaM_sa_x": 1.8,
+        "bolts": [
+            {
+                "name": "HS 50/30 M 10 FV/GV-S 4.6",
+                "diameter": 0.01,
+                "material": "Galvanized",
+                "strength_class": "G_4_6",
+                "characteristic_values": {
+                    "GammaMss": 1.67,
+                    "GammaNMss": 2,
+                    "Smin_s": 50,
+                    "VRksl_x": 0,
+                    "NRkss": 23200,
+                    "VRkss": 13900,
+                    "M0Rks": 29899.999999999996
+                }
+            },
+            {
+                "name": "HS 50/30 M 12 FV/GV-S 4.6",
+                "diameter": 0.012,
+                "material": "Galvanized",
+                "strength_class": "G_4_6",
+                "characteristic_values": {
+                    "GammaMss": 1.67,
+                    "GammaNMss": 2,
+                    "Smin_s": 60,
+                    "VRksl_x": 0,
+                    "NRkss": 33700,
+                    "VRkss": 20200,
+                    "M0Rks": 52400
+                }
+            },
+            {
+                "name": "HS 50/30 M 12 FV/GV-S 8.8",
+                "diameter": 0.012,
+                "material": "Galvanized",
+                "strength_class": "G_8_8",
+                "characteristic_values": {
+                    "GammaMss": 1.25,
+                    "GammaNMss": 1.5,
+                    "Smin_s": 60,
+                    "VRksl_x": 0,
+                    "NRkss": 67400,
+                    "VRkss": 33700,
+                    "M0Rks": 104800
+                }
+            },
+            {
+                "name": "HS 50/30 M 16 FV/GV-S 4.6",
+                "diameter": 0.016,
+                "material": "Galvanized",
+                "strength_class": "G_4_6",
+                "characteristic_values": {
+                    "GammaMss": 1.67,
+                    "GammaNMss": 2,
+                    "Smin_s": 80,
+                    "VRksl_x": 0,
+                    "NRkss": 62799.99999999999,
+                    "VRkss": 37700,
+                    "M0Rks": 133200
+                }
+            },
+            {
+                "name": "HS 50/30 M 16 FV/GV-S 8.8",
+                "diameter": 0.016,
+                "material": "Galvanized",
+                "strength_class": "G_8_8",
+                "characteristic_values": {
+                    "GammaMss": 1.25,
+                    "GammaNMss": 1.5,
+                    "Smin_s": 80,
+                    "VRksl_x": 0,
+                    "NRkss": 125599.99999999999,
+                    "VRkss": 62799.99999999999,
+                    "M0Rks": 266400
+                }
+            },
+            {
+                "name": "HS 50/30 M 20 FV/GV-S 4.6",
+                "diameter": 0.02,
+                "material": "Galvanized",
+                "strength_class": "G_4_6",
+                "characteristic_values": {
+                    "GammaMss": 1.67,
+                    "GammaNMss": 2,
+                    "Smin_s": 100,
+                    "VRksl_x": 0,
+                    "NRkss": 98000,
+                    "VRkss": 58799.99999999999,
+                    "M0Rks": 259600.00000000003
+                }
+            },
+            {
+                "name": "HS 50/30 M 20 FV/GV-S 8.8",
+                "diameter": 0.02,
+                "material": "Galvanized",
+                "strength_class": "G_8_8",
+                "characteristic_values": {
+                    "GammaMss": 1.25,
+                    "GammaNMss": 1.5,
+                    "Smin_s": 100,
+                    "VRksl_x": 0,
+                    "NRkss": 196000,
+                    "VRkss": 98000,
+                    "M0Rks": 519299.99999999994
+                }
+            },
+            {
+                "name": "HS 50/30 M 12 A4-50",
+                "diameter": 0.012,
+                "material": "A4",
+                "strength_class": "A4_50",
+                "characteristic_values": {
+                    "GammaMss": 2.38,
+                    "GammaNMss": 2.86,
+                    "Smin_s": 60,
+                    "VRksl_x": 0,
+                    "NRkss": 42200,
+                    "VRkss": 25300,
+                    "M0Rks": 65500
+                }
+            },
+            {
+                "name": "HS 50/30 M 12 A4-70",
+                "diameter": 0.012,
+                "material": "A4",
+                "strength_class": "A4_70",
+                "characteristic_values": {
+                    "GammaMss": 1.56,
+                    "GammaNMss": 1.87,
+                    "Smin_s": 60,
+                    "VRksl_x": 0,
+                    "NRkss": 59000,
+                    "VRkss": 35400,
+                    "M0Rks": 91700
+                }
+            },
+            {
+                "name": "HS 50/30 M 16 A4-50",
+                "diameter": 0.016,
+                "material": "A4",
+                "strength_class": "A4_50",
+                "characteristic_values": {
+                    "GammaMss": 2.38,
+                    "GammaNMss": 2.86,
+                    "Smin_s": 80,
+                    "VRksl_x": 0,
+                    "NRkss": 78500,
+                    "VRkss": 47100,
+                    "M0Rks": 166500
+                }
+            },
+            {
+                "name": "HS 50/30 M 16 A4-70",
+                "diameter": 0.016,
+                "material": "A4",
+                "strength_class": "A4_70",
+                "characteristic_values": {
+                    "GammaMss": 1.56,
+                    "GammaNMss": 1.87,
+                    "Smin_s": 80,
+                    "VRksl_x": 0,
+                    "NRkss": 109900,
+                    "VRkss": 65900,
+                    "M0Rks": 233100
+                }
+            },
+            {
+                "name": "HS 50/30 M 20 A4-50",
+                "diameter": 0.02,
+                "material": "A4",
+                "strength_class": "A4_50",
+                "characteristic_values": {
+                    "GammaMss": 2.38,
+                    "GammaNMss": 2.86,
+                    "Smin_s": 100,
+                    "VRksl_x": 0,
+                    "NRkss": 122500,
+                    "VRkss": 73500,
+                    "M0Rks": 324500
+                }
+            },
+            {
+                "name": "HS 50/30 M 20 A4-70",
+                "diameter": 0.02,
+                "material": "A4",
+                "strength_class": "A4_70",
+                "characteristic_values": {
+                    "GammaMss": 1.56,
+                    "GammaNMss": 1.87,
+                    "Smin_s": 100,
+                    "VRksl_x": 0,
+                    "NRkss": 171500,
+                    "VRkss": 102900,
+                    "M0Rks": 454399.99999999994
+                }
+            },
+            {
+                "name": "HS 50/30 M 16 HCR-50",
+                "diameter": 0.016,
+                "material": "HCR",
+                "strength_class": "HCR_50",
+                "characteristic_values": {
+                    "GammaMss": 2.38,
+                    "GammaNMss": 2.86,
+                    "Smin_s": 80,
+                    "VRksl_x": 0,
+                    "NRkss": 78500,
+                    "VRkss": 47100,
+                    "M0Rks": 166500
+                }
+            }
+        ]
+    },
+    "bim": {
+        "insertion_points": {
+            "insertion_box": {
+                "type": "cuboid",
+                "min_point": {
+                    "x": -0.0245,
+                    "y": 0,
+                    "z": -0.103
+                },
+                "max_point": {
+                    "x": 0.0245,
+                    "y": 0.15,
+                    "z": 0
+                }
+            },
+            "available_points": {
+                "z_min": {
+                    "y_min": {
+                        "x_min": false,
+                        "x_mid": false,
+                        "x_max": false
+                    },
+                    "y_mid": {
+                        "x_min": false,
+                        "x_mid": false,
+                        "x_max": false
+                    },
+                    "y_max": {
+                        "x_min": false,
+                        "x_mid": false,
+                        "x_max": false
+                    }
+                },
+                "z_mid": {
+                    "y_min": {
+                        "x_min": false,
+                        "x_mid": false,
+                        "x_max": false
+                    },
+                    "y_mid": {
+                        "x_min": false,
+                        "x_mid": false,
+                        "x_max": false
+                    },
+                    "y_max": {
+                        "x_min": false,
+                        "x_mid": false,
+                        "x_max": false
+                    }
+                },
+                "z_max": {
+                    "y_min": {
+                        "x_min": true,
+                        "x_mid": true,
+                        "x_max": true
+                    },
+                    "y_mid": {
+                        "x_min": false,
+                        "x_mid": false,
+                        "x_max": false
+                    },
+                    "y_max": {
+                        "x_min": true,
+                        "x_mid": true,
+                        "x_max": true
+                    }
+                },
+                "default_point": [
+                    "z_max",
+                    "y_min",
+                    "x_mid"
+                ]
+            }
+        },
+        "chaining_point": {
+            "is_insertion_point": false,
+            "origin": {
+                "x": -0.0245,
+                "y": 0,
+                "z": -0.103
+            }
+        },
+        "measurement_points": [
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.15,
+                "z": 0.0
+            }
+        ],
+        "parts": {
+            "channel": {
+                "type": "extrusion",
+                "profile": [
+                    {
+                        "x": 0.011,
+                        "y": 0.0,
+                        "z": -0.00461,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.0125,
+                        "y": 0.0,
+                        "z": -0.00721,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.01975,
+                        "y": 0.0,
+                        "z": -0.00302,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.022,
+                        "y": 0.0,
+                        "z": -0.00432,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": 0.022,
+                        "y": 0.0,
+                        "z": -0.026,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.021,
+                        "y": 0.0,
+                        "z": -0.027,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": -0.021,
+                        "y": 0.0,
+                        "z": -0.027,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": -0.022,
+                        "y": 0.0,
+                        "z": -0.026,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": -0.022,
+                        "y": 0.0,
+                        "z": -0.00432,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": -0.01975,
+                        "y": 0.0,
+                        "z": -0.00302,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": -0.0125,
+                        "y": 0.0,
+                        "z": -0.00721,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": -0.011,
+                        "y": 0.0,
+                        "z": -0.00461,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": -0.01787,
+                        "y": 0.0,
+                        "z": -0.00064,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": -0.025,
+                        "y": 0.0,
+                        "z": -0.00475,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": -0.025,
+                        "y": 0.0,
+                        "z": -0.02575,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": -0.02075,
+                        "y": 0.0,
+                        "z": -0.03,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": 0.02075,
+                        "y": 0.0,
+                        "z": -0.03,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.025,
+                        "y": 0.0,
+                        "z": -0.02575,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": 0.025,
+                        "y": 0.0,
+                        "z": -0.00475,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.01787,
+                        "y": 0.0,
+                        "z": -0.00064,
+                        "type": "arc_end_point"
+                    },
+                    {
+                        "x": 0.011,
+                        "y": 0.0,
+                        "z": -0.00461,
+                        "type": "polyline_point"
+                    }
+                ],
+                "path": [
+                    {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.15,
+                        "z": 0.0,
+                        "type": "polyline_point"
+                    }
+                ],
+                "length": 0.15,
+                "cutout": [],
+                "origin": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "rotation": [
+                            {
+                                "alpha": 0,
+                                "beta": 0,
+                                "gamma": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "anchors": {
+                "type": "revolution",
+                "profile": [
+                    {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.073,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.01091,
+                        "y": 0.0,
+                        "z": -0.073,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.01091,
+                        "y": 0.0,
+                        "z": -0.0708,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.00985,
+                        "y": 0.0,
+                        "z": -0.0708,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.005,
+                        "y": 0.0,
+                        "z": -0.06822,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.005,
+                        "y": 0.0,
+                        "z": -0.00513,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.01465,
+                        "y": 0.0,
+                        "z": -0.0,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.0,
+                        "type": "polyline_point"
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.073,
+                        "type": "polyline_point"
+                    }
+                ],
+                "axis_origin": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "axis_direction": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "sweep_angle": 6.283185307,
+                "cutout": [],
+                "origin": [
+                    {
+                        "x": 0,
+                        "y": 0.025,
+                        "z": -0.03,
+                        "rotation": [
+                            {
+                                "alpha": 0,
+                                "beta": 0,
+                                "gamma": 0
+                            }
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": 0.125,
+                        "z": -0.03,
+                        "rotation": [
+                            {
+                                "alpha": 0,
+                                "beta": 0,
+                                "gamma": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "channel_bounding_box": {
+                "type": "cuboid",
+                "min_point": {
+                    "x": -0.0245,
+                    "y": 0,
+                    "z": -0.03
+                },
+                "max_point": {
+                    "x": 0.0245,
+                    "y": 0.15,
+                    "z": 0
+                }
+            },
+            "anchors_bounding_box": {
+                "type": "cuboid",
+                "min_point": {
+                    "x": -0.01,
+                    "y": -0.01,
+                    "z": -0.103
+                },
+                "max_point": {
+                    "x": 0.01,
+                    "y": 0.01,
+                    "z": -0.03
+                },
+                "origin": [
+                    {
+                        "x": 0,
+                        "y": 0.025,
+                        "z": 0,
+                        "rotation": [
+                            {
+                                "alpha": 0,
+                                "beta": 0,
+                                "gamma": 0
+                            }
+                        ]
+                    },
+                    {
+                        "x": 0,
+                        "y": 0.125,
+                        "z": 0,
+                        "rotation": [
+                            {
+                                "alpha": 0,
+                                "beta": 0,
+                                "gamma": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bounding_box": {
+                "type": "cuboid",
+                "min_point": {
+                    "x": -0.0245,
+                    "y": 0,
+                    "z": -0.103
+                },
+                "max_point": {
+                    "x": 0.0245,
+                    "y": 0.15,
+                    "z": 0.0
+                }
+            }
+        },
+        "log": {
+            "high": [
+                "channel",
+                "anchors"
+            ],
+            "medium": [
+                "channel_bounding_box",
+                "anchors_bounding_box"
+            ],
+            "low": [
+                "bounding_box"
+            ]
+        },
+        "styles": {
+            "common": [
+                "bounding_box"
+            ],
+            "steel": [
+                "channel",
+                "anchors",
+                "channel_bounding_box",
+                "anchors_bounding_box"
+            ]
+        },
+        "classification": {
+            "uniclass2015_code": "Pr_20_85_84_84",
+            "uniclass2015_description": "Stainless steel cast-in channels",
+            "omniclass_code": "23-13 23 11 11 11",
+            "omniclass_description": "Rail Anchors",
+            "ifc_export_as": "IfcMechanicalFastener",
+            "ifc_export_type": "NOTDEFINED",
+            "ifc_description": "",
+            "load_bearing": true
+        }
+    }
+}
