@@ -21,12 +21,11 @@ Thesis/
 ├── Example_Data/
 │   ├── HTA1071F.dwg                  # Original CAD file (AutoCAD DWG format)
 │   ├── HTA1071F.dxf                  # Original DXF drawing input
-│   ├── HTA1071F.pdf                  # Exported drawing preview (optional)
-│   ├── HTA1071F.json                 # Raw intermediary or reference data (optional)
+│   ├── HTA1071F.pdf                  # Exported drawing preview 
 │   ├── HTA1071F_geometry.json        # Output geometry from DXF_Parser
 │   ├── HTA1071F_parts.json           # Classified geometry from Geometry_Interpreter
 │   ├── HTA1071F_structured_output.json # Final BIM output from JSON_Builder
-│   └── HTA1071F_ref.json (optional)  # Ground truth for validation (if available)
+│   └── HTA1071F.json                 # Ground truth for validation 
 ```
 
 ---
