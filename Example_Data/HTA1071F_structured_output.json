@@ -1,0 +1,149 @@
+{
+  "_id": "6b424baa-61ab-4608-9dd2-35033b913448",
+  "general": {
+    "product": "HTA",
+    "variant": "HTA1071F",
+    "reference": "HTA1071F",
+    "type": "cast_in_channel",
+    "material": "HCR",
+    "manufacturer": "Leviat"
+  },
+  "calculation": {},
+  "bim": {
+    "parts": {
+      "unlabeled": {
+        "shape": "revolution",
+        "axis_origin": [
+          736.74,
+          270.62,
+          0.0
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "sweep_angle": 360,
+        "origin": {
+          "x": 736.74,
+          "y": 270.62,
+          "z": 0.0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "unlabeled_2": {
+        "shape": "revolution",
+        "axis_origin": [
+          736.74,
+          270.62,
+          0.0
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "sweep_angle": 360,
+        "origin": {
+          "x": 736.74,
+          "y": 270.62,
+          "z": 0.0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "unlabeled_3": {
+        "shape": "revolution",
+        "axis_origin": [
+          736.74,
+          270.62,
+          0.0
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "sweep_angle": 360,
+        "origin": {
+          "x": 736.74,
+          "y": 270.62,
+          "z": 0.0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "unlabeled_4": {
+        "shape": "revolution",
+        "axis_origin": [
+          736.74,
+          270.62,
+          0.0
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "sweep_angle": 360,
+        "origin": {
+          "x": 736.74,
+          "y": 270.62,
+          "z": 0.0,
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "bounding_box": {
+        "shape": "cuboid",
+        "min_point": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "max_point": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    "insertion_points": {},
+    "chaining_point": {
+      "is_insertion_point": true,
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "measurement_points": [],
+    "classification": {},
+    "insertion_box": {
+      "shape": "cuboid",
+      "min_point": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "max_point": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  }
+}
